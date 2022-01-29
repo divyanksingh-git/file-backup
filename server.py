@@ -17,7 +17,7 @@ if not os.path.exists("data"):
 	os.mkdir("data")
     
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.settimeout(600)
+#s.settimeout(600)
 HOST='127.0.0.1'
 PORT = 5000
 addr = (HOST,PORT)
