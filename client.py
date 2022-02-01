@@ -20,8 +20,7 @@ def recvall(s):
 
 arg = str(sys.argv[1])
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-HOST = '3.234.178.220'
-#HOST = '127.0.0.1'
+HOST = '127.0.0.1'
 PORT = 5000
 s.connect((HOST, PORT))
 if arg == "list":
